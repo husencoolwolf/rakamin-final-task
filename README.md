@@ -28,13 +28,15 @@ Anda dapat menggunakan API dalam aplikasi ini. Salah satunya bisa dengan sharing
 
 _Setting Environment_
 Beberapa Variable yang perlu disetting untuk penggunaan API :
-**authToken** Variable yang menampung token Authorization. Token ini dapat ditemukan ketika Login dengan user yang tepat.
-**Url** Variable yang menampung alamat root website yang dijalankan misal : http://rakamin-final-task.test yang nantinya tidak perlu report menghubungkan ke endpoint/Route yang lainnya.
-**accType** Variable yang menampung tipe aplikasi yang dijalankan. Karna di POSTman saya biasa menjalankan dengan header "Accept" tambahan yang biasa bernilai "application/json"
+
+-   **authToken** Variable yang menampung token Authorization. Token ini dapat ditemukan ketika Login dengan user yang tepat.
+-   **Url** Variable yang menampung alamat root website yang dijalankan misal : http://rakamin-final-task.test yang nantinya tidak perlu report menghubungkan ke endpoint/Route yang lainnya.
+-   **accType** Variable yang menampung tipe aplikasi yang dijalankan. Karna di POSTman saya biasa menjalankan dengan header "Accept" tambahan yang biasa bernilai "application/json"
 
 _API Features_
 Beberapa fitur yang dapat dilakukan pada aplikasi :
-**Login** Fitur login dengan method post yang ini adalah awal penggunaan API untuk mendapatkan Token. jika berhasil akan mendapat response seperti :
+
+-   **Login** Fitur login dengan method post yang ini adalah awal penggunaan API untuk mendapatkan Token. jika berhasil akan mendapat response seperti :
 
 ```
 {
@@ -54,21 +56,21 @@ Beberapa fitur yang dapat dilakukan pada aplikasi :
 }
 ```
 
-**Logout** Fitur untuk revoke token dan logout sehingga token tidak bisa dipakai lagi.
-**Get All Users** Fitur untuk melihat user lain
-**Get All User's Articles** Fitur untuk mendapatkan artikel yang dimiliki oleh user yang login
-**Detail Article** Fitur untuk melihat suatu artikel secara detail
-**Create Article** Fitur untuk membuat artikel baru.
-**Update Article** Fitur untuk update artikel yang sudah ada.
-**Delete Article** Fitur untuk menghapus suatu artikel.
+-   **Logout** Fitur untuk revoke token dan logout sehingga token tidak bisa dipakai lagi.
+-   **Get All Users** Fitur untuk melihat user lain
+-   **Get All User's Articles** Fitur untuk mendapatkan artikel yang dimiliki oleh user yang login
+-   **Detail Article** Fitur untuk melihat suatu artikel secara detail
+-   **Create Article** Fitur untuk membuat artikel baru.
+-   **Update Article** Fitur untuk update artikel yang sudah ada.
+-   **Delete Article** Fitur untuk menghapus suatu artikel.
 
 ### Blog Sederhana
 
 Pada bagian blog sederhana. Anda dapat langsung mencobanya dengan langsung migrate & seed. Karena sudah dibuatkan seeder untuk testing.
 Salah satu User yang sudah dibuat seed nya adalah dengan informasi :
 
-**Email :** user@gmail.com
-**Password :** 123
+-   **Email :** user@gmail.com
+-   **Password :** 123
 
 dengan detail akun diatas anda dapat langsung mencoba login dengan akun testing tsb.
 
