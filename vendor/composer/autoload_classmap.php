@@ -16,6 +16,7 @@ return array(
     'App\\Http\\Controllers\\DashboardCategoryController' => $baseDir . '/app/Http/Controllers/DashboardCategoryController.php',
     'App\\Http\\Controllers\\DashboardController' => $baseDir . '/app/Http/Controllers/DashboardController.php',
     'App\\Http\\Controllers\\LoginController' => $baseDir . '/app/Http/Controllers/LoginController.php',
+    'App\\Http\\Controllers\\RegisterController' => $baseDir . '/app/Http/Controllers/RegisterController.php',
     'App\\Http\\Controllers\\api\\v1\\ArticleController' => $baseDir . '/app/Http/Controllers/api/v1/ArticleController.php',
     'App\\Http\\Controllers\\api\\v1\\LoginController' => $baseDir . '/app/Http/Controllers/api/v1/LoginController.php',
     'App\\Http\\Controllers\\api\\v1\\UserController' => $baseDir . '/app/Http/Controllers/api/v1/UserController.php',

@@ -582,6 +582,7 @@ class ComposerStaticInitd90153ef346a841680f23c21905151ea
         'App\\Http\\Controllers\\DashboardCategoryController' => __DIR__ . '/../..' . '/app/Http/Controllers/DashboardCategoryController.php',
         'App\\Http\\Controllers\\DashboardController' => __DIR__ . '/../..' . '/app/Http/Controllers/DashboardController.php',
         'App\\Http\\Controllers\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/LoginController.php',
+        'App\\Http\\Controllers\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/RegisterController.php',
         'App\\Http\\Controllers\\api\\v1\\ArticleController' => __DIR__ . '/../..' . '/app/Http/Controllers/api/v1/ArticleController.php',
         'App\\Http\\Controllers\\api\\v1\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/api/v1/LoginController.php',
         'App\\Http\\Controllers\\api\\v1\\UserController' => __DIR__ . '/../..' . '/app/Http/Controllers/api/v1/UserController.php',
